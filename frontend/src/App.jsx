@@ -4,7 +4,7 @@ import remarkGfm from 'remark-gfm'
 import { FileText, Image as ImageIcon, Send, Plus, User, Bot, Loader2 } from 'lucide-react'
 import './App.css'
 
-const API = 'http://127.0.0.1:5002/api'
+const API = import.meta.env.MODE === 'development' ? 'http://127.0.0.1:5002/api' : '/api'
 
 export default function App() {
   const [chatId, setChatId] = useState('')
