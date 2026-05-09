@@ -122,7 +122,7 @@ Then open **http://localhost:5173** in your browser.
 | Backend  | Python, Flask 3.0              |
 | AI Model | Google Gemini 2.5 Flash        |
 | SDK      | `google-genai` (Python)        |
-| Styling  | Vanilla CSS (glassmorphic dark mode) |
+| Styling  | Vanilla CSS (minimal flat dark mode) |
 
 ---
 
